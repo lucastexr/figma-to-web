@@ -8,7 +8,7 @@ export default function Home() {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
         <div className="rb-12 mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-          <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
+          <h1 className="mb-5 text-6xl font-semibold md:mb-6 md:text-9xl lg:text-10xl">
             Empower Your Business with Our Dev Team
           </h1>
           <p className="md:text-md">
@@ -17,10 +17,8 @@ export default function Home() {
             truly matters—growing your business.
           </p>
           <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
-            <Button title="Get Started">Get Started</Button>
-            <Button title="Learn More" variant="secondary">
-              Learn More
-            </Button>
+            <Button variant="primary">Get Started</Button>
+            <Button variant="secondary">Learn More</Button>
           </div>
         </div>
         <div className="flex w-screen justify-start overflow-hidden">
