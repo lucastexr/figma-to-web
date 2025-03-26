@@ -29,4 +29,8 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+    fontWeight: true,
+  },
 } 
